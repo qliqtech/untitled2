@@ -22,10 +22,7 @@ class ArticlesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
+
 
     /**
      * Store a newly created resource in storage.
@@ -49,24 +46,8 @@ class ArticlesController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Articles  $articles
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Articles $articles)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Articles  $articles
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, Articles $articles)
     {
         //
