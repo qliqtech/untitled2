@@ -16,9 +16,9 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('dob');
-            $table->boolean('is_active');
-            $table->boolean('is_deleted');
+            $table->string('dob')->nullable();
+            $table->boolean('is_active')->nullable();
+            $table->boolean('is_deleted')->nullable();
             $table->dateTime('deleted_on')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
