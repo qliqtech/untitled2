@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889762c2-3b1a-400d-ab6a-35578d792438" name="Default Changelist" comment="Changes made to route">
-      <change afterPath="$PROJECT_DIR$/blog/app/Http/Middleware/AdminAuth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/app/Http/Middleware/SuperAdminAuth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ArticlesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ApiAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ApiAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/AdminAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Middleware/AdminAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/SuperAdminAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Middleware/SuperAdminAuth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +174,7 @@
       <workItem from="1607425367105" duration="274000" />
       <workItem from="1607425655477" duration="104000" />
       <workItem from="1607425771156" duration="35476000" />
-      <workItem from="1607804188442" duration="7305000" />
+      <workItem from="1607804188442" duration="13499000" />
     </task>
     <task id="LOCAL-00001" summary="Changes made to route">
       <created>1607805417834</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607805417834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes made to route">
+      <created>1607892895947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607892895947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

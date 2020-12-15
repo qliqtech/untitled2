@@ -14,7 +14,10 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        return Articles::all();
+     //   return Articles::all();
+
+        $response = ['message' => 'article index'];
+        return response($response, 200);
     }
 
     /**

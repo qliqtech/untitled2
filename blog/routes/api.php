@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth;
+use App\Http\Controllers;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -51,6 +53,11 @@ Route::group(['middleware' => ['cors', 'json.response']], function () {
 Route::middleware('auth:api')->group(function () {
     // our routes to be protected will go in here
     Route::post('/logout', 'Auth\ApiAuthController@logout')->name('logout.api');
+
+    Route::get('/articles', 'ArticlesController@index')->name('articles');
+
+  //  Route::post('/doadminstuff','Controller@method')->middleware('api.admin');
+
 });
 
 
